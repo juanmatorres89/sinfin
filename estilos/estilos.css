@@ -68,7 +68,6 @@ p{
 
 nav{
     width: 100%;
-    
     background-color: black;
     display:flex;
     justify-content: center;
@@ -99,98 +98,65 @@ nav ul li a:hover{
 
 h1, p, a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 100px;
 }
 
-h1{
-    color: rgb(253, 253, 253);
-    padding: 10px;
-    margin-left: 40px;
-}
-
-.border-radius{
-    border-radius: 50%;
-    color: rgb(248, 246, 249);
+#bienvenida{
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 .contenedorImg{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto1Index{
-    width: 97%;
-    height: 900px;
-    margin-left: 20px;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 30px;
+    width: 80%;
+    border-radius: 2px;
+    margin-top: 100px;
+}
+
+@media (max-width: 576px){
+    .foto1Index{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    #bienvenida{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
 }
 
 /* integrantes.html */
 
-.integrantes{
-    display: flex;
+.tituloIntegrantes{
     color: rgb(255, 255, 255);
     margin-right: 400px;
-    margin-top: 60px;
-    margin-left: 60px;
-}
-
-.imagint{
-    width: 90%;
-    height: 800px;
-    margin-left: 70px;
-    margin-right: 70px;
-    border-radius: 30px;
+    margin: 30px;
+    padding: 50px;
+    margin-top: 80px;
 }
 
 .los4{
-    width: 400px;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .nombresIntegrantes{
+    width: 50%;
+    margin: auto;
     text-align: center;
-    width: 20px;
-}
-
-.integrantesFotos{ 
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(3, 200px);
-    gap: 15px;
-    padding: 1%;
-    justify-content: center;
-}
-
-@media (max-width: 576px){
-    .integrantesFotos{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.intSinfin{    
-    overflow: hidden;
-    width: 500px;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
-    margin-right: 450px;
-    border-radius: 30px;
-}
-
-.escenarioSinfin{
-    overflow: hidden;
-    width: 500px;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    border-radius: 30px;
-    margin-left: 300px;
-    margin-right: 500px;
+    padding: 15px;
 }
 
 /* Discografia.html */
@@ -200,14 +166,17 @@ h1{
     height: 500px;
     margin-left: 70px;
     margin-right: 70px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .discos{
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;   
+    width: 100%;
+    margin-top: 60px;
+
 }
+
 
 @media (max-width: 576px){
     .discos{
@@ -217,34 +186,51 @@ h1{
     .fotoDisco{
         width: 350px;
     }
+
+    .temas{ 
+        margin-left: -70px;
+    }
 }
 
 .temas{
     width: 100%;
 }
 
+.temas2{    
+    width: 100%;
+    margin-left: -70px;
+}
 /* biografia.html */
 
 #tituloBio{
-    margin-top: 50px;
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+    padding-top: 60px;
 }
 
 #biografia{
     margin-left: 10px;
     line-height: 50px;
-    width: 90%;
+    width: 80%;
 }
 
 #imagenBio{
     width: 850px;
-    margin-left: 500px;
+    margin-left:300px;
 }
 
 @media (max-width: 576px){
     #imagenBio{
         width: 350px;
-        margin: 50px;
+        margin: 100px;
     }
+
+    #tituloBio{
+        text-align: center;
+    }
+
+    
     
 }
 
@@ -265,8 +251,8 @@ h1{
 
 .imgContacto{
     width: 700px;
-    margin-left: 750px;
-    margin-top: -500px;
+    margin-left: 600px;
+    margin-top: -300px;
     border-radius: 2px;
 }
 
@@ -279,7 +265,7 @@ h1{
     
 }
 
-/* galeria.html */
+/* imagenes.html */
 
 .img{
     width: 300px;
@@ -292,6 +278,7 @@ h1{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
+    margin-top: 30px;
 }
 
 @media (max-width: 576px){
