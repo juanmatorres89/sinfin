@@ -1,0 +1,28 @@
+#contactoDatos{
+    margin-left: 50px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.contactoTexto{ 
+    color: white;
+    font-family: $font-type;
+    margin-left: 50px;
+}
+
+.imgContacto{
+    width: 700px;
+    margin-left: 600px;
+    margin-top: -300px;
+    border-radius: 2px;
+}
+
+@media (max-width: 576px){
+    
+    .imgContacto{
+        width: 350px;
+        margin: 60px;
+    }
+    
+}

@@ -1,0 +1,35 @@
+
+@mixin title-bio {
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+    padding-top: 60px;
+}
+
+#tituloBio{
+    @include title-bio();
+    font-size: 45px;
+    
+}
+
+#biografia{
+    margin-left: 10px;
+    line-height: 50px;
+    width: 80%;
+}
+
+#imagenBio{
+    width: 850px;
+    margin-left:300px;
+}
+
+@media (max-width: 576px){
+    #imagenBio{
+        width: 350px;
+        margin: 100px;
+    }
+
+    #tituloBio{
+        text-align: center;
+    }
+}
