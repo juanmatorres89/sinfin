@@ -43,7 +43,7 @@ nav li {
   display: inline;
 }
 nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -58,6 +58,9 @@ nav a:hover {
   background-color: white;
 }
 
+.menu {
+  background-color: black;
+}
 .menu li {
   position: relative;
   display: inline-block;
@@ -67,7 +70,7 @@ nav a:hover {
 .menu .submenu {
   display: none;
   position: absolute;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: -30px;
   list-style: none;
   background-color: black;
@@ -131,88 +134,6 @@ h1, p, a {
   width: 80%;
   border-radius: 2px;
   margin-top: 100px;
-}
-
-input#abrir-cerrar {
-  visibility: hidden;
-  position: absolute;
-  top: -9999px;
-}
-
-.toggle-button {
-  display: block;
-  width: 50px;
-  height: 50px;
-  border: 1px solid rgb(255, 255, 255);
-  position: relative;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-.toggle-button:before, .toggle-button:after {
-  position: absolute;
-  display: block;
-  content: " ";
-  width: 50%;
-  box-sizing: border-box;
-  left: 25%;
-  transition: all 0.2s ease-out;
-}
-
-.toggle-button:before {
-  top: 25%;
-  height: 25%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  background-color: transparent;
-}
-
-.toggle-button:before, .toggle-button:after {
-  position: absolute;
-  display: block;
-  content: " ";
-  width: 50%;
-  box-sizing: border-box;
-  left: 25%;
-  transition: all 0.2s ease-out;
-}
-
-.toggle-button:before, .toggle-button:after {
-  position: absolute;
-  display: block;
-  content: " ";
-  width: 50%;
-  box-sizing: border-box;
-  left: 25%;
-  transition: all 0.2s ease-out;
-}
-
-.toggle-button:before {
-  top: 25%;
-  height: 25%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  background-color: transparent;
-}
-
-.toggle-button:after {
-  height: 1px;
-  background-color: rgb(255, 253, 253);
-  bottom: 25%;
-}
-
-input#abrir-cerrar:checked + .toggle-button:before, input#abrir-cerrar:checked + .toggle-button:after {
-  top: 50%;
-  height: 1px;
-  border-bottom: 0;
-}
-
-input#abrir-cerrar:checked + .toggle-button:before {
-  transform: rotate(45deg);
-}
-
-input#abrir-cerrar:checked + .toggle-button:after {
-  transform: rotate(-45deg);
 }
 
 @media (max-width: 576px) {

@@ -48,7 +48,7 @@ nav{
     }
 
     a{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 15px;
         text-decoration: none;
         text-transform: uppercase;
@@ -65,6 +65,7 @@ nav{
 }
 
 .menu{
+    background-color: $bg-color;
 
     li{
         position: relative;
@@ -76,7 +77,7 @@ nav{
     .submenu{
         display: none ;
         position: absolute;
-        color: white;
+        color: rgb(0, 0, 0);
         margin-left: -30px;
         list-style: none;
         background-color: black;
