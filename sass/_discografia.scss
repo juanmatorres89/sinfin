@@ -1,13 +1,6 @@
-.fotoDisco{
-    width: 400px;
-    height: 500px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-top: 60px;
-}
 
-.fotoDisco:hover{
-    transform: scale(1.5, 1.5);
+#tituloDisc{    
+    margin-top: 150px;
 }
 
 .discos{
@@ -15,21 +8,25 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     margin-top: 60px;
-
-}
-
-.temas{
+    .fotoDisco {
+    width: 400px;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 60px;
+    &:hover{
+    transform: scale(1.5, 1.5);
+    }
+    }
+    .temas{
     width: 100%;
-}
-
-.temas2{    
+    }
+    .temas2{    
     width: 100%;
     margin-left: -70px;
+    }
 }
 
-#tituloDisc{    
-    margin-top: 150px;
-}
 
 @media (max-width: 576px){
     .discos{

@@ -31,6 +31,12 @@ p {
   margin-bottom: 10px;
 }
 
+h1, p, a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blanchedalmond;
+  text-align: center;
+}
+
 nav {
   width: 100%;
   background-color: black;
@@ -79,39 +85,12 @@ nav a:hover {
   display: block;
 }
 
-.menu li {
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-  margin-top: -500px;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  color: white;
-  margin-left: -30px;
-  list-style: none;
-  background-color: black;
-}
-
-.menu li:hover .submenu {
-  display: block;
-}
-
 .logoIndex {
   width: 20%;
   margin-left: 40px;
   margin-right: 100px;
   background-color: black;
   margin-top: 30px;
-}
-
-h1, p, a {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: blanchedalmond;
-  text-align: center;
-  margin-top: 100px;
 }
 
 #bienvenida {
@@ -166,16 +145,8 @@ h1, p, a {
   padding: 15px;
 }
 
-.fotoDisco {
-  width: 400px;
-  height: 500px;
-  margin-left: 70px;
-  margin-right: 70px;
-  padding-top: 60px;
-}
-
-.fotoDisco:hover {
-  transform: scale(1.5, 1.5);
+#tituloDisc {
+  margin-top: 150px;
 }
 
 .discos {
@@ -184,18 +155,22 @@ h1, p, a {
   width: 100%;
   margin-top: 60px;
 }
-
-.temas {
+.discos .fotoDisco {
+  width: 400px;
+  height: 500px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 60px;
+}
+.discos .fotoDisco:hover {
+  transform: scale(1.5, 1.5);
+}
+.discos .temas {
   width: 100%;
 }
-
-.temas2 {
+.discos .temas2 {
   width: 100%;
   margin-left: -70px;
-}
-
-#tituloDisc {
-  margin-top: 150px;
 }
 
 @media (max-width: 576px) {
@@ -209,18 +184,17 @@ h1, p, a {
     margin-left: -70px;
   }
 }
-.img {
-  width: 300px;
-  height: 300px;
-  margin-left: 110px;
-  margin-top: 100px;
-}
-
 .imagenesBanda {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   justify-content: center;
   margin-top: 30px;
+}
+.imagenesBanda .img {
+  width: 300px;
+  height: 300px;
+  margin-left: 110px;
+  margin-top: 100px;
 }
 
 #tituloShows {
@@ -233,21 +207,19 @@ h1, p, a {
     margin: 2px;
   }
 }
-#tituloBio {
+div #tituloBio {
   margin-left: 50px;
   text-align: left;
   color: white;
   padding-top: 60px;
   font-size: 45px;
 }
-
-#biografia {
+div #biografia {
   margin-left: 10px;
   line-height: 50px;
   width: 80%;
 }
-
-#imagenBio {
+div #imagenBio {
   width: 850px;
   margin-left: 300px;
 }
@@ -256,9 +228,6 @@ h1, p, a {
   #imagenBio {
     width: 350px;
     margin: 100px;
-  }
-  #tituloBio {
-    text-align: center;
   }
 }
 #contactoDatos {
@@ -278,6 +247,9 @@ h1, p, a {
   margin-left: 600px;
   margin-top: -300px;
   border-radius: 2px;
+}
+.imgContacto:hover {
+  transform: scale(1.5, 1.5);
 }
 
 @media (max-width: 576px) {

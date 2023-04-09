@@ -6,30 +6,27 @@
     padding-top: 60px;
 }
 
-#tituloBio{
+div{
+    #tituloBio{
     @include title-bio();
     font-size: 45px;
-    
-}
+    }
 
-#biografia{
+    #biografia{
     margin-left: 10px;
     line-height: 50px;
     width: 80%;
-}
+    }
 
-#imagenBio{
+    #imagenBio{
     width: 850px;
     margin-left:300px;
+    }
 }
 
 @media (max-width: 576px){
     #imagenBio{
         width: 350px;
         margin: 100px;
-    }
-
-    #tituloBio{
-        text-align: center;
     }
 }

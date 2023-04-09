@@ -1,36 +1,9 @@
-.menu li{
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-    margin-top: -500px;
-}
-
-.submenu{
-    display:none ;
-    position: absolute;
-    color: white;
-    margin-left: -30px;
-    list-style: none;
-    background-color: black;
-}
-
-.menu li:hover .submenu{
-    display: block;
-}
-
 .logoIndex{
     width: 20%;
     margin-left: 40px;
     margin-right: 100px;
     background-color: black;
     margin-top: 30px;
-}
-
-h1, p, a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blanchedalmond;
-    text-align: center;
-    margin-top: 100px;
 }
 
 #bienvenida{
