@@ -10,23 +10,28 @@ div{
     #tituloBio{
     @include title-bio();
     font-size: 45px;
+    margin-left: 80px;
     }
 
     #biografia{
-    margin-left: 10px;
-    line-height: 50px;
+    margin-left: 60px;
+    line-height: 30px;
     width: 80%;
     }
 
     #imagenBio{
-    width: 850px;
-    margin-left:300px;
+    width: 250px;
+    margin-left:150px;
+    margin-top: 30px;
+    padding: 10px;
+    &:hover{
+        transform: scale(1.5, 1.5);
+        }
     }
 }
 
 @media (max-width: 576px){
     #imagenBio{
-        width: 350px;
-        margin: 100px;
+        width: 400px;
     }
 }

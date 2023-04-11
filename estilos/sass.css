@@ -213,21 +213,26 @@ div #tituloBio {
   color: white;
   padding-top: 60px;
   font-size: 45px;
+  margin-left: 80px;
 }
 div #biografia {
-  margin-left: 10px;
-  line-height: 50px;
+  margin-left: 60px;
+  line-height: 30px;
   width: 80%;
 }
 div #imagenBio {
-  width: 850px;
-  margin-left: 300px;
+  width: 250px;
+  margin-left: 150px;
+  margin-top: 30px;
+  padding: 10px;
+}
+div #imagenBio:hover {
+  transform: scale(1.5, 1.5);
 }
 
 @media (max-width: 576px) {
   #imagenBio {
-    width: 350px;
-    margin: 100px;
+    width: 400px;
   }
 }
 #contactoDatos {
