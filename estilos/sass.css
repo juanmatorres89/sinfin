@@ -61,7 +61,7 @@ nav a {
 }
 nav a:hover {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .menu {
@@ -124,6 +124,13 @@ nav a:hover {
     font-size: 30px;
     margin-bottom: 50px;
   }
+  .logoIndex {
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 100px;
+    background-color: black;
+    margin-top: 30px;
+  }
 }
 .tituloIntegrantes {
   color: rgb(255, 255, 255);
@@ -167,10 +174,11 @@ nav a:hover {
 }
 .discos .temas {
   width: 100%;
+  margin-left: 15px;
 }
 .discos .temas2 {
   width: 100%;
-  margin-left: -70px;
+  margin-left: -60px;
 }
 
 @media (max-width: 576px) {
@@ -217,8 +225,8 @@ div #tituloBio {
 }
 div #biografia {
   margin-left: 60px;
-  line-height: 30px;
   width: 80%;
+  text-align: left;
 }
 div #imagenBio {
   width: 250px;
