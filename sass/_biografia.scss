@@ -13,12 +13,6 @@ div{
     margin-left: 80px;
     }
 
-    #biografia{
-    margin-left: 60px;
-    width: 80%;
-    text-align:left;
-    }
-
     #imagenBio{
     width: 250px;
     margin-left:150px;
@@ -30,7 +24,7 @@ div{
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 320px){
     #imagenBio{
         width: 400px;
     }
