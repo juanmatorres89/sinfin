@@ -1,0 +1,145 @@
+@media screen and (min-width: 320px) and (max-width: 575px)  {
+    /*contacto.html*/
+
+    #contactoDatos {
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .imgContacto {
+        width: 230px;
+        margin: 35px;
+    }
+
+    /*imagenes.html*/
+
+    .imagenesBanda {
+        grid-template-columns: auto;
+        margin-left: 15px;
+    }
+
+    .imagenesBanda .img{
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    /*biografia.html*/
+
+    div #tituloBio{
+        margin-left: 15px;
+    }
+
+    div #imagenBio {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    /*discografia.html*/
+
+    .discos {
+        flex-direction: column;
+    }
+
+    .discos .fotoDisco {
+        width: 200px;
+        height: auto;
+    }
+
+    .discos .temas {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    /*index.html*/
+
+    .foto1Index {
+        width: 330px;
+        margin-bottom: 60px;
+    }
+
+    #bienvenida {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .logoIndex {
+        width: 20%;
+        margin-left: 40px;
+        margin-right: 100px;
+        background-color: black;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px)  {
+    /*contacto.html*/
+
+    #contactoDatos {
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .imgContacto {
+        width: 230px;
+        margin: 35px;
+    }
+
+    /*imagenes.html*/
+
+    .imagenesBanda {
+        grid-template-columns: auto;
+        margin-left: 15px;
+    }
+
+    .imagenesBanda .img{
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    /*biografia.html*/
+
+    div #tituloBio{
+        margin-left: 15px;
+    }
+
+    div #imagenBio {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    /*discografia.html*/
+
+    .discos {
+        flex-direction: column;
+    }
+
+    .discos .fotoDisco {
+        width: 400px;
+        height: auto;
+    }
+
+    .discos .temas {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    /*index.html*/
+
+    .foto1Index {
+        width: 330px;
+        margin-bottom: 60px;
+    }
+
+    #bienvenida {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .logoIndex {
+        width: 20%;
+        margin-left: 40px;
+        margin-right: 100px;
+        background-color: black;
+        margin-top: 30px;
+    }
+}
