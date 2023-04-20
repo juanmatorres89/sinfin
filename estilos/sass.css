@@ -245,7 +245,7 @@ div #imagenBio:hover {
     margin-left: 15px;
   }
   .imagenesBanda .img {
-    margin-left: 20px;
+    margin-left: auto;
     width: 250px;
   }
   /*biografia.html*/
@@ -261,12 +261,12 @@ div #imagenBio:hover {
     flex-direction: column;
   }
   .discos .fotoDisco {
-    width: 200px;
-    height: auto;
+    width: 250px;
+    margin-left: 25px;
   }
   .discos .temas {
     font-size: 15px;
-    margin-left: 0px;
+    margin: 0;
   }
   /*index.html*/
   .foto1Index {
@@ -289,19 +289,22 @@ div #imagenBio:hover {
   /*contacto.html*/
   #contactoDatos {
     font-size: 15px;
-    width: 100%;
+    padding: 50px;
   }
   .imgContacto {
-    width: 230px;
-    margin: 35px;
+    width: 500px;
+    margin: 130px;
+  }
+  .contactoTexto {
+    margin-left: 250px;
   }
   /*imagenes.html*/
   .imagenesBanda {
     grid-template-columns: auto;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .imagenesBanda .img {
-    margin-left: 20px;
+    margin-left: 30px;
     width: 250px;
   }
   /*biografia.html*/
@@ -318,11 +321,10 @@ div #imagenBio:hover {
   }
   .discos .fotoDisco {
     width: 400px;
-    height: auto;
   }
   .discos .temas {
     font-size: 15px;
-    margin-left: 0px;
+    margin-left: 100px;
   }
   /*index.html*/
   .foto1Index {
